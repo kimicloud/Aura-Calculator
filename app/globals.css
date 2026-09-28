@@ -1,0 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body { background: #0B0B0F; color: #E9D5FF; font-feature-settings: 'tnum'; }
+:focus-visible { outline: 2px solid #C86BFA; outline-offset: 2px; }
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }
